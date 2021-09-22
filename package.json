@@ -12,5 +12,8 @@
     "vuex"
   ],
   "author": "Poulycroc <poulycroc.studio@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.2.1"
+  }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "poulycroc-vue-store-maker",
+  "version": "1.0.0",
+  "description": "Helper for vuejs store system",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "vuejs",
+    "store",
+    "vuex"
+  ],
+  "author": "Poulycroc <poulycroc.studio@gmail.com>",
+  "license": "MIT"
+}

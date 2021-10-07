@@ -113,5 +113,15 @@ export const stateClone = (object) => {
  * @return {JSON}
  */
 export const toggleMutation = ({ commit, state }, stateName) => {
-  return commit(rendStoreMutation(stateName), state[stateName]);
+  return commit(rendStoreMutation(stateName), !state[stateName]);
+};
+
+/**
+ * @param {Object} object
+ * @param {String} stateName
+ * @param {*} value
+ * @return {JSON}
+ */
+export const setMutation = ({ commit }, stateName, value) => {
+  return commit(rendStoreMutation(stateName), value);
 };
